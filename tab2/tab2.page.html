@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Sean Mayers - 0961892
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <p style="margin-left: 15px">Hi, my name is Sean and I love pizza!</p>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label>Pepperoni</ion-label>
+      <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Sausage</ion-label>
+      <ion-checkbox [(ngModel)]="sausage" disabled="false"></ion-checkbox>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Mushrooms</ion-label>
+      <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+    </ion-item>
+  
+  </ion-list>
+
+  
+
+
+
+</ion-content>
